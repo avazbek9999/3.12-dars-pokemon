@@ -1,0 +1,48 @@
+img{
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.pokemon{
+    background:linear-gradient(#4ecdc4,#556270);
+    /* background-color:#fffde4 ; */
+    /* background-color:#556270 ; */
+}
+
+
+.form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.item{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    background:linear-gradient(
+        #6dd5fa
+        , 
+        #ffffff);
+}
+
+.item:hover{
+    box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px;
+    
+}
+
+.item__img{
+    display: flex;
+    justify-content: center;
+}

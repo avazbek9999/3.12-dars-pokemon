@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="pokemon">
+        <div class="container">
+            <h1 class="pokemeon_headding text-center text-secondary pt-2 mb-4">Pokemons</h1>
+            <form class="form "> 
+                <input class="input form-control w-100 mx-auto mb-2" type="text" name="pokemon__name" placeholder="Search">
+
+                <label class="form-leble text-white h5 w-100">
+                    Tayp bo'ycha qidiruv:
+                    <select class="form__select form-select d-block mt-2 w-100" name="pokemons_type">
+                        <option value="grass">Grass</option>
+                        <option value="poison">Poison</option>
+                        <option value="fire">Fire</option>
+                        <option value="flying">Flying</option>
+                    </select>
+                </label>
+            </form>
+            <ul class="list list-unstyled">
+                <li class="item border p-3">
+                    <span class="item__num text-center text-danger "> 001</span> 
+                    <h2 class="item__headding text-center text-secondary">Bulbasaur</h2>
+                    <img 
+                         class="item__img border rounded-3 bg-white mb-3 w-100mx-auto" 
+                         src="https:picsum.photos/350/250" 
+                         alt="pic of pokimon" 
+                    >                                
+                    <ul class="type  list-unstyled">
+                        <li>Grass</li>
+                        <li>Poison</li>
+                    </ul>
+                    <p class="height m-0 text-secondary">0.71 m</p>
+                    <p class="weight m-0 text-secondary">6.9 kg</p>
+                    <h4 class="candy h6 m-0 text-success">Bulbasaur Candy</h4>
+                    <span class="candy_count m-0">25</span>
+                    <p class="agg m-0">2 km</p>
+                    <p class="spawn_chance m-0">0.69</p>
+                    <p class="avg_spawns m-0">69</p>
+                    <time class="spawn_time m-0">20:00</time>
+                    <span class="multipliers d-block m-0">1.58</span>
+                    <ul class="weaknesses">
+                        <li>Fire</li>
+                        <li>Ice</li>
+                    </ul>
+                    
+
+                   
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
